@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "start": "npm run build && parcel demo.html --no-cache",
+        "build": "rimraf range-slider && parcel build src/index.js --no-cache --no-source-maps -d range-slider -o range-slider"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.10",
+        "less": "^3.9.0",
+        "parcel": "^1.12.3",
+        "rimraf": "^2.6.3"
+    }
+}
