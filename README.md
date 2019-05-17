@@ -1,5 +1,5 @@
 ## Preview
-
+![image](https://raw.githubusercontent.com/elegy7/range-slider/master/preview.png)
 ## Usage
 
 ```html
@@ -17,3 +17,8 @@ rangeIniter({
     }
 })
 ```
+
+```bash
+$ npm start
+```
+
